@@ -1,0 +1,120 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800&family=Source+Code+Pro&display=swap');
+
+/*Main style*/
+body {
+    font-family: 'Poppins';
+    line-height: 1.3em;
+}
+
+/*Header*/
+#main-header {
+    background-color: #6e6e6e;
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    height: 5%;
+}
+
+.navbar-list {
+    text-align: center;
+    margin: 2.5% auto;
+}
+
+.navbar-items {
+    display: inline-block;
+    margin-left: 15px;
+    color: white;
+}
+
+/*Callout*/
+
+#callout {
+    /* margin-top: 6%; */
+    text-align: center;
+    height: 200px;
+    background-image: url('https://wallpapercave.com/wp/wp6763577.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.callout-content {
+    margin: 8% auto;
+
+}
+
+#callout h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+#callout h2 {
+    font-size: 25px;
+    margin-top: 2%;
+    color: #fff;
+}
+
+#callout h1,
+h2,
+h3 {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px auto;
+}
+
+/*Body and Articles*/
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+code {
+    background-color: red;
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.article-paragraph {
+    text-align: justify;
+}
+
+.main-section {
+
+}
+
+.article-img{
+    width: 90%;
+    padding: 10px;
+}
+.content-article {
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid black;
+}
+.article-list {}
+
+.observation {
+    border: 1px dashed blue
+}
+/*Footer*/
+
+footer {
+    background-color: violet;
+    height: 30px;
+    text-align: center;
+}
+
+.footer-content {
+    display: inline-block;
+    margin: 5px auto;
+}
