@@ -4,7 +4,10 @@
 /*Main style*/
 body {
     font-family: 'Poppins';
+    font-weight: 300;
     line-height: 1.3em;
+    background-color: #505357;
+    color: #fff;
 }
 
 /*Header*/
@@ -16,6 +19,7 @@ body {
     top: 0;
     z-index: 1;
     height: 5%;
+    box-shadow: 3px 3px 3px rgb(44, 44, 44);
 }
 
 .navbar-list {
@@ -43,13 +47,15 @@ body {
 }
 
 .callout-content {
-    margin: 8% auto;
+    margin: 5dvh auto;
 
 }
 
 #callout h1 {
     font-size: 50px;
     color: #fff;
+    padding: 50px;
+    text-shadow: 2px 2px 1px #35f704;
 }
 
 #callout h2 {
@@ -64,6 +70,7 @@ h3 {
     font-weight: bold;
     text-align: center;
     margin: 15px auto;
+    color:#ff3974 ;
 }
 
 /*Body and Articles*/
@@ -76,8 +83,13 @@ h3 {
     font-size: 20px;
 }
 
+main {
+    padding: 5px;
+}
+
 code {
-    background-color: red;
+    background-color: #313131;
+    color:#98e685;
     padding: 2px;
     border-radius: 3px;
     font-size: 12px;
@@ -99,19 +111,21 @@ code {
 .content-article {
     margin: 10px auto;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid #6e6e6e;
 }
 .article-list {}
 
 .observation {
-    border: 1px dashed blue
+    border:1px dashed #ff3974
 }
 /*Footer*/
 
 footer {
-    background-color: violet;
+    background-color: #35373a;
     height: 30px;
     text-align: center;
+    color: #dbdada;
+    font-weight:lighter
 }
 
 .footer-content {
